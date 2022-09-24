@@ -1,3 +1,4 @@
 node_modules
+prisma/sessions*
 # Keep environment variables out of version control
 .env

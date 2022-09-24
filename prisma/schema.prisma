@@ -6,14 +6,14 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider = "sqlite"
+  url      = "file:./sessions.db"
 }
 
 model Session {
   id    Int    @id @default(autoincrement())
   key   String @unique
-  value String @db.Text
+  value String
 
   @@map("session")
 }
