@@ -1,0 +1,23 @@
+{
+  "name": "grammy-fastify-errors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.0.3",
+    "@grammyjs/runner": "^1.0.4",
+    "@grammyjs/storage-prisma": "^2.0.0",
+    "@prisma/client": "^4.3.1",
+    "dotenv": "^16.0.2",
+    "fastify": "^4.5.3",
+    "grammy": "^1.11.0",
+    "ngrok": "^4.3.3",
+    "prisma": "^4.3.1"
+  }
+}
